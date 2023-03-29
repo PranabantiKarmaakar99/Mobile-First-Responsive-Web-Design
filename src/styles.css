@@ -35,10 +35,34 @@ body {
     top: 0;
     z-index: -1;
     object-fit: cover;
-    background-color: rgba(33, 33, 33, 0.777);
+    
+  
+    
 
 
 }
+
+.background-image::after { 
+
+    display: block;
+    position: relative;
+   
+    background-color: rgba(0,0,0,0.3); 
+  
+    margin-top: -1030px;
+    height: 1024px;
+    width: 100%;
+    content: '';}
+
+.img2{
+    object-fit: cover;
+    height: 1024px;
+    width: 100%;
+    z-index: -2;
+
+}
+
+
 
 .navbar {
     padding-top: 32px;
@@ -101,7 +125,7 @@ h1 {
     line-height: 62px;
     letter-spacing: 0em;
     text-align: left;
-    /* border: 1px solid #FFFFFF; */
+   
     margin: 0;
     padding: 0;
     margin-top: 32px;
@@ -142,8 +166,7 @@ h1 {
 
 .newest-read {
     margin-top: 300px;
-    /* padding-left: 32px;
- padding-right: 32px; */
+  
 
 }
 
@@ -186,8 +209,7 @@ h1 {
 }
 
 .item-text {
-    /* padding-left: 32px;
-    padding-right: 32px; */
+   
     border: 1px solid #DDDDDD;
     border-top:none;
     border-top-left-radius: 0;
@@ -311,7 +333,7 @@ h2 {
         flex-direction: row;
 
         gap: 0;
-        /* margin-top: 78px; */
+        margin-top: 78px;
         padding: 0;
 
         padding-left: 72px;
@@ -478,6 +500,8 @@ text-align: left;
     .title2{
         padding-bottom: 44px;
     }
+
+   
 
 
 
