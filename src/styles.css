@@ -178,7 +178,8 @@ h1 {
     letter-spacing: 0em;
     text-align: left;
     padding-left: 32px;
-    padding-top:78px;
+    padding-top:150px;
+
 
 }
 
@@ -209,6 +210,8 @@ h1 {
 }
 
 .item-text {
+
+    position: relative;
    
     border: 1px solid #DDDDDD;
     border-top:none;
@@ -241,14 +244,16 @@ h2 {
     letter-spacing: 0em;
     text-align: left;
     padding-top: 28px;
-    margin-bottom: 18px;
+    padding-bottom: 64px;
     padding-left: 32px;
     padding-right: 32px;
 }
 
 .linktags {
-    padding-bottom: 32px;
-    padding-left: 183px;
+    position:absolute;
+    right:32px;
+    bottom:32px;
+    margin-top: 18px;
     font-family: Inter;
     font-size: 15px;
     font-weight: 500;
@@ -295,6 +300,11 @@ h2 {
         text-align: left;
 
 
+    }
+
+    .title2{
+
+        padding-top: 89px;
     }
 
     /* Section 2 */
